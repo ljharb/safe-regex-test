@@ -1,0 +1,32 @@
+{
+	"name": "safe-regex-test",
+	"version": "0.0.0",
+	"description": "Give a regex, get a robust predicate function that tests it against a string.",
+	"main": "index.js",
+	"exports": {
+		".": "./index.js",
+		"./package.json": "./package.json"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ljharb/safe-regex-test.git"
+	},
+	"keywords": [
+		"regex",
+		"regexp",
+		"test",
+		"tester",
+		"safe",
+		"robust",
+		"exec"
+	],
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ljharb/safe-regex-test/issues"
+	},
+	"homepage": "https://github.com/ljharb/safe-regex-test#readme"
+}
