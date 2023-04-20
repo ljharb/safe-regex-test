@@ -15,7 +15,7 @@
 		"prepublish": "not-in-publish || npm run prepublishOnly",
 		"prepublishOnly": "safe-publish-latest",
 		"pretest": "npm run lint",
-		"tests-only": "tape test",
+		"tests-only": "nyc tape test",
 		"test": "npm run tests-only",
 		"posttest": "aud --production"
 	},
@@ -55,6 +55,7 @@
 		"for-each": "^0.3.3",
 		"in-publish": "^2.0.1",
 		"npmignore": "^0.3.0",
+		"nyc": "^10.3.2",
 		"object-inspect": "^1.12.2",
 		"safe-publish-latest": "^2.0.0",
 		"tape": "^5.6.1"
