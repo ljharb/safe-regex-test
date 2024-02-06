@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.3](https://github.com/ljharb/safe-regex-test/compare/v1.0.2...v1.0.3) - 2024-02-06
+
+### Commits
+
+- [Refactor] use `es-errors`, so things that only need those do not need `get-intrinsic` [`d6ba2f9`](https://github.com/ljharb/safe-regex-test/commit/d6ba2f948c679c3104ce6d6c897bedff0f1c5b74)
+- [Deps] update `call-bind`, `get-intrinsic` [`5a3b1d7`](https://github.com/ljharb/safe-regex-test/commit/5a3b1d755e46f010e6930f15ec30eae023feffd3)
+- [Dev Deps] update `tape` [`75fb719`](https://github.com/ljharb/safe-regex-test/commit/75fb71937c5daf1326052c59d6f251f439cd9332)
+
 ## [v1.0.2](https://github.com/ljharb/safe-regex-test/compare/v1.0.1...v1.0.2) - 2024-01-11
 
 ### Commits
