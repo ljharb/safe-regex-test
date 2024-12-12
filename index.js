@@ -6,6 +6,7 @@ var isRegex = require('is-regex');
 var $exec = callBound('RegExp.prototype.exec');
 var $TypeError = require('es-errors/type');
 
+/** @type {import('.')} */
 module.exports = function regexTester(regex) {
 	if (!isRegex(regex)) {
 		throw new $TypeError('`regex` must be a RegExp');
