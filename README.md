@@ -42,5 +42,5 @@ Simply clone the repo, `npm install`, and run `npm test`
 [downloads-url]: https://npm-stat.com/charts.html?package=safe-regex-test
 [codecov-image]: https://codecov.io/gh/ljharb/safe-regex-test/branch/main/graphs/badge.svg
 [codecov-url]: https://app.codecov.io/gh/ljharb/safe-regex-test/
-[actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/ljharb/safe-regex-test
+[actions-image]: https://img.shields.io/github/check-runs/ljharb/safe-regex-test/main
 [actions-url]: https://github.com/ljharb/safe-regex-test/actions
