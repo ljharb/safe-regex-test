@@ -21,9 +21,9 @@ npm install --save safe-regex-test
 var regexTester = require('safe-regex-test');
 var assert = require('assert');
 
-var tester = regexTester('a');
+var tester = regexTester(/a/);
 assert.ok(tester('a'));
-assert.notOk(tester('b'));
+assert.ok(!tester('b'));
 ```
 
 ## Tests
