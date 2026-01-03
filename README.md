@@ -23,7 +23,7 @@ var assert = require('assert');
 
 var tester = regexTester(/a/);
 assert.ok(tester('a'));
-assert.ok(!tester('b'));
+assert.strictEqual(tester('b'), false);
 ```
 
 ## Tests
