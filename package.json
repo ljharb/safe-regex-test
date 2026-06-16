@@ -57,7 +57,7 @@
 		"@types/object-inspect": "^1.13.0",
 		"auto-changelog": "^2.6.0",
 		"es-value-fixtures": "^1.7.1",
-		"eslint": "^9.39.4",
+		"eslint": "^10.5.0",
 		"for-each": "^0.3.5",
 		"in-publish": "^2.0.1",
 		"jiti": "^0.0.0",
